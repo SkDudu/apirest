@@ -13,9 +13,15 @@ public class Pessoas {
     private Long Id;
 
     @Column(nullable = false)
-    private String nome;
-
+    private String name;
     private String dateAni;
     private String monthAni;
+
+    //@Column(name = "date")
+    //private String dateAni;
+
+    //@Column(name = "month")
+    //private String monthAni;
+
 
 }

@@ -6,4 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface PessoaRepository extends JpaRepository<Pessoas, Long> {
+    //Pessoas findAll(String monthAni);
+    //Pessoas findByMonth(String month);
+    //Pessoas findByName(String name);
 }
